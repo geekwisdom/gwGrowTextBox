@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Growing Text Box Example
+</title>
+    <style id="_click_saver_">body{display:none !important;}</style>
+
+    <script type="text/javascript">
+     function unveil() {
+        if (self === top) {
+            var framesaver = document.getElementById("_click_saver_");
+            try { framesaver.parentNode.removeChild(framesaver); }
+            catch (e) { }
+        } else {
+            top.location = self.location;
+        }
+    }
+    </script>
+
+<style>
+ 
+input[type=text].redinput {
+  border: 2px solid red;
+  border-radius: 4px;
+  height:25px;
+  width:100%;
+}
+
+input[type=text].pretty {
+  width: 100%;
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+input[type=text]:focus.pretty {
+  background-color: lightblue;
+}
+
+</style>
+
+   </head>
+
+<body>
+<h1>Growing Text Box Example</h1>
+<form>
+                
+<div style="width:200px;">
+Example #1: <input style="width:100%" name="boxexample1" type="text" maxlength="50"  id="example1" onkeydown="myWebUI.onGrow(this);"/>
+</div>
+<p/>
+<div style="width:200px;">
+Example #2: <input class="redinput" name="boxexample2" type="text" maxlength="80"  id="example2" onkeydown="myWebUI.onGrow(this);"/>
+</div>
+<div style="width:200px;">
+Example #3: <input class="pretty" name="boxexample3" type="text" maxlength="150"  id="example3" onkeydown="myWebUI.onGrow(this);"/>
+</div>
+
+
+
+</form>
+
+ 
+<script type="text/javascript" src="./scripts/org/geekwisdom/webui/gwWebUI.js"></script>
+<script>
+var global_culture = 'en';
+var myWebUI = new gwWebUI();
+unveil();
+</script>
+</body>
+</html>
