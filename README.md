@@ -1,6 +1,6 @@
 # Growing TextBox
 
-![ScreenShot](https://github.com/geekwisdom/gwClock/blob/master/assets/clock_sample.png?raw=true)
+![ScreenShot](https://github.com/geekwisdom/gwGrowTextBox/blob/master/assets/growing_example.gif?raw=true =250x)
 
 ## Introducton
 
