@@ -1,6 +1,6 @@
 # Growing TextBox
 
-![ScreenShot](https://github.com/geekwisdom/gwGrowTextBox/blob/master/assets/growing_example.gif?raw=true | width=100)
+![ScreenShot](https://github.com/geekwisdom/gwGrowTextBox/blob/master/assets/growing_example.gif?raw=true)
 
 ## Introducton
 
